@@ -149,6 +149,17 @@ h3{
     padding-bottom: 30px;
 }
 
+.alpha_box{
+    display: flex;
+    gap: .5rem;
+}
+
+.iconos_alpha{
+    display: flex;
+    flex-direction: column;
+    gap: .4rem;
+}
+
 .guion{
     width: 13px;
     padding-bottom: 5px;
@@ -340,6 +351,11 @@ footer{
         font-size: 12px;
         padding: 0 0 10px;
     }
+
+    .iconos_alpha{
+        gap: .2rem;
+    }
+
     .sect_pc{
         height: 380px;
         gap: 40px;
