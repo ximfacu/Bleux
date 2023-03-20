@@ -1,0 +1,537 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    gap: 10rem;
+    padding: 0.5rem 2rem;
+    background-color: #1e172f;;
+    
+}
+
+ul{
+    align-items: center;
+    list-style-type: none;
+    display: flex;
+    gap: 2rem;
+    color:  #fff;
+    font-family:  'Montserrat', sans-serif;
+}
+
+ul li a{
+    text-decoration: none; 
+}
+
+.logo{
+    max-width: 8rem;
+    margin-left: 180px;
+}
+
+.boton1{
+    background-image: linear-gradient(to bottom right,#aa07c7,#0784c7 80%);
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    padding: 0 15px 0 15px;
+    height: 45px;
+    margin-right: 250px;
+   
+}
+
+.abrir-menu,
+.cerrar-menu{
+    display: none;
+}
+
+.section_cel{
+    display: flex;
+    width: 100%;
+    height: 670px;
+}
+.cel{
+    width: 620px;
+    padding-left: 180px;
+    padding-top: 90px;
+    background-image: url(https://cdn.discordapp.com/attachments/1070029585640603748/1079823280858468422/golden-leaves-4k-75-2560x1024.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.phone{
+    height: 500px;
+}
+
+.product{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    padding: 150px 40px 0 220px;
+    background-color: #2e2550;
+}
+
+h1{
+    font-size: 60px;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+}
+
+.parrafo-produc{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13x;
+    color: #fff;
+    padding-top: 30px ;
+}
+
+.botones{
+    display: flex;
+    margin-top: 50px;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    width: 215px;
+}
+
+.boton2{
+    padding: 5px;
+    margin: 4px;
+    background-color: #fff;
+    border-radius: 3px;
+    border: none;
+    color: #f41480;
+}
+
+.boton3{
+    height: 26px;
+    margin-top: 4px;
+    background-color: #2e2550;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    padding: 0 20px 0 20px;
+    color: #fff;
+}
+
+.sect_pc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+    gap: 200px;
+}
+
+.foncti{
+    text-align: center;
+    height: 40px;
+    color: #f41480;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 50px;
+}
+
+h3{
+    color: #f41480;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 30px;
+}
+
+.pc{
+    height: 250px;
+ 
+}
+.box_alpha{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    padding-bottom: 30px;
+}
+
+.guion{
+    width: 13px;
+    padding-bottom: 5px;
+    color: #f41480;
+}
+
+h5{
+    color: #f41480;
+    font-size: 15px;
+}
+
+.iconos{
+    width: 13px;
+}
+
+.box_plans{
+    background-color: #1f172f;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.plans{
+    text-align: center;
+    font-size: 40px;
+    color: #fff;
+    padding:  20px 0 20px 0;
+}
+
+.parrafo_plans{
+    text-align: center;
+}
+
+.boxes{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    gap: 50px;
+}
+
+.lite{
+    background-color: #fff;
+    color: #000;
+    border-radius: 7px;
+    text-align: center;
+}
+
+.title_lite{
+    font-size: 20px;
+    color: #f41480;
+}
+
+h6{
+    font-size: 20px;
+    color: #1f172f;
+}
+
+span{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.parrafos{
+    background-color: #eae8ea;
+    height: 50px;
+    font-size: 10px;
+}
+
+.iconos_text{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.iconoss{
+    width: 10px;
+}
+.icon{
+    display: flex;
+    flex-direction: column;
+    padding-right: 20px ;
+    gap: 15px;
+}
+
+.texto{
+    line-height: 23px;
+    text-align: center;
+}
+
+.parrafos2{
+    padding: 0 15px 20px;
+}
+
+.suscribe{
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px 20px;
+    background-color: #f41480;
+    color: #fff;
+    border:none;
+    margin-bottom: 10px;
+    border-radius: 3px
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    height: 50px;
+}
+
+.span2{
+    color: #f41480;
+    font-size: 12px;
+}
+
+.footer_img{
+    width: 16px;
+}
+
+
+@media (max-width:1200px) {
+
+    nav ul{
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .boton1{
+        margin-right: 50px;
+    }
+
+    .logo{
+        margin-left: 50px;
+    }
+
+    .product{
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    .cel{
+        padding-left: 150px;
+    }
+
+    .sect_pc{
+        gap: 120px;
+    }
+}
+
+@media (max-width:992px) {
+    .section_cel{
+        height: 570px;
+    }
+
+    nav ul{
+        align-items: center;
+        gap: 1rem;
+        margin: 0;
+        font-size: 14px;
+    }
+  
+    .boton1{
+        height: 40px;
+        margin: 0;
+    }
+
+    .logo{
+        margin: 0;
+    }
+
+    .cel{
+        padding-left: 90px;
+        height: 480px;
+    }
+
+    .phone{
+        height: 400px;
+    }
+
+    .product{
+        height: 450px;
+        padding-left: 60px;
+        padding-right: 80px;
+        padding-top: 120px ; 
+    }
+
+    .box_alpha{
+        font-size: 12px;
+        padding: 0 0 10px;
+    }
+    .sect_pc{
+        height: 380px;
+        gap: 40px;
+    }
+    .pc{
+        padding-right: 0;
+        height: 200px;
+    }
+    .parrafo_plans{
+        font-size: 13px;
+    }
+
+    .lite{
+        width: 380px;
+        height: 500px;
+    }
+    .box_plans{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .boxes{
+        flex-direction: column;
+        width: 400px;
+        padding: 50px 0 ;
+        gap: 30px;
+    }
+    .parrafos2{
+        padding: 0 ;
+    }
+}
+
+@media (max-width:768px) {
+    .abrir-menu,
+    .cerrar-menu{
+        display: block;
+        border: 0;
+        font-size: 2rem;
+        background-color: transparent;
+        color: #fff;
+        cursor: pointer;
+    }
+
+    nav{
+        opacity: 0;
+        visibility: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        gap: 0rem;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: auto;
+        background-color: #1e172f;
+        padding: 2rem;
+        box-shadow: 0 0 0 400vmax rgba(0, 0, 0, .5);
+    }
+
+    nav.visible{
+        opacity: 1;
+        visibility: visible;
+    }
+
+    nav ul{
+        flex-direction: column;
+        align-items: center;
+        padding: 2rem;
+        gap: 3rem;
+        margin: 0;
+    }
+
+    .boton1{
+        height: 30px;
+        margin: 0;
+    }
+
+    .cel,
+    .phone{
+        display: none;
+    }
+
+    .product{
+        width: 100%;
+        align-items: center;
+        padding-top: 100px;
+        padding-right: 60px;
+        height: 480px;
+    }
+
+    .section_cel{
+        height: 515px;
+    }
+
+    .parrafo-produc{
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .sect_pc{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        height: 420px;
+        margin-bottom: 30px;
+    }
+
+    .pc{
+        height: 130px;
+    }
+    
+    .foncti{
+        font-size: 30px;
+        padding-bottom: 20px;
+        padding-top: 30px;
+    }
+
+    .iconos_alpha{
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+    }
+
+    .alpha_box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    h3{
+        padding-bottom: 20px;
+    }
+
+    .lite{
+        width: 350px;
+    }
+
+    .parrafo_plans{
+        display: none;
+    }
+
+    .plans{
+        padding-top: 50px;
+    }
+
+    .boxes{
+        padding: 20px;
+        width: 350px;
+    }
+
+    h1{
+        text-align: center;
+    }
+
+    footer{
+        font-size: 11px;
+    }
+
+    .fontiona{
+        margin-top: 100px;
+    }
+
+
+}
+
+@media (max-width:480px) {
+    h1{
+        text-align: center;
+    }
+
+    .parrafo-produc{
+        font-size: 13px;
+    }
+
+    .lite{
+        width: 300px;
+        font-size: 12px;
+    }
+
+    .boxes{
+        width: 300px;
+    }
+
+    footer{
+        flex-direction: column;
+    }
+
+    nav{
+        bottom: auto;
+    }
+
+}
+
+
