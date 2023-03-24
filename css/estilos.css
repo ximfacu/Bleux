@@ -20,6 +20,13 @@ ul{
     gap: 2rem;
     color:  #fff;
     font-family:  'Montserrat', sans-serif;
+    cursor: pointer;
+}
+
+li:hover{
+    border: 1px solid #fff;
+    border-radius: 4px;
+    padding: 4px;
 }
 
 ul li a{
@@ -40,7 +47,11 @@ ul li a{
     padding: 0 15px 0 15px;
     height: 45px;
     margin-right: 250px;
-   
+    cursor: pointer;
+}
+
+.boton1:hover{
+    box-shadow: 1px 1px 5px #fff;
 }
 
 .abrir-menu,
@@ -95,6 +106,12 @@ h1{
     width: 215px;
 }
 
+.botones:hover{
+    box-shadow: 1px 1px 4px #f41480;
+    border: 1px solid #f41480;
+    color:#fff
+}
+
 .boton2{
     padding: 5px;
     margin: 4px;
@@ -102,6 +119,12 @@ h1{
     border-radius: 3px;
     border: none;
     color: #f41480;
+}
+
+.boton2:hover{
+    background-color: transparent;
+    border: 1px solid #f41480;
+    color:#fff
 }
 
 .boton3{
@@ -113,6 +136,13 @@ h1{
     padding: 0 20px 0 20px;
     color: #fff;
 }
+
+.boton3:hover{
+    background-color: #fff;
+    border: 1px solid #f41480;
+    color:#f41480;
+}
+
 
 .sect_pc{
     display: flex;
@@ -262,6 +292,13 @@ span{
     border-radius: 3px
 }
 
+.suscribe:hover{
+    box-shadow: 1px 1px 8px #f41480;
+    background-color: #fff;
+    color: #f41480;
+    border: 1px solid #f41480;
+}
+
 footer{
     display: flex;
     justify-content: space-around;
@@ -271,13 +308,14 @@ footer{
     height: 50px;
 }
 
-.span2{
-    color: #f41480;
-    font-size: 12px;
-}
-
 .footer_img{
     width: 16px;
+}
+
+.nom_xime{
+    color: #f41480;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 
